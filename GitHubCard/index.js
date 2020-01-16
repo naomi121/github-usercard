@@ -14,7 +14,7 @@ axios.get("https://api.github.com/users/naomi121")
    data in order to use it to build your component function 
 
    Skip to Step 3.
-*/
+*///
 
 
 function gitCard(obj){
