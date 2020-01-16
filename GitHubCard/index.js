@@ -73,7 +73,7 @@ return card;
           
           Using that array, iterate over it, requesting data for each user, creating a new card for each
           user, and adding that card to the DOM.
-*/
+*///
 
 const followersArray = ['Nsandomeno','Katrina-Dierking','brudnak','acarrillo3','skyesaj'];
 followersArray.forEach(item =>{axios.get(`https://api.github.com/users/${item}`)
